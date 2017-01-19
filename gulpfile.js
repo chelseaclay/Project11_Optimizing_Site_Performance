@@ -1,22 +1,22 @@
 'use strict'
- 
+
 var gulp = require("gulp"),
   concat = require("gulp-concat"),
 minifier = require("minifier"),
      del = require("del");
 
 gulp.task("concatScripts", function() {
-  return gulp.src(["js/fastclick.js", 
-            "js/foundation.js", 
-            "js/foundation.equalizer.js", 
+  return gulp.src(["js/fastclick.js",
+            "js/foundation.js",
+            "js/foundation.equalizer.js",
             "js/foundation.reveal.js"])
     .pipe(concat("app.js"))
     .pipe(gulp.dest("js"));
 });
 
-gulp.task("concatCSS", function() {  
-  return gulp.src(["css/normalize.css", 
-            "css/foundation.css", 
+gulp.task("concatCSS", function() {
+  return gulp.src(["css/normalize.css",
+            "css/foundation.css",
             "css/basics.css",
             "css/menu.css",
             "css/hero.css",
@@ -46,7 +46,7 @@ gulp.task("clean", function() {
 
 gulp.task("build", ["minifyScripts", "minifyCSS"], function() {
   return gulp.src(["css/app.min.css", "js/app.min.js", "index.html", "img/**"], {base: "./"})
-                  .pipe(gulp.dest("dist"));
+  .pipe(gulp.dest("dist"));
 });
 
 gulp.task("default", ["clean"], function() {
