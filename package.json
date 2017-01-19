@@ -1,0 +1,17 @@
+{
+  "name": "project-11",
+  "version": "1.0.0",
+  "description": "optimizing site performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chelsea Clay",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "minifier": "^0.8.0"
+  }
+}
