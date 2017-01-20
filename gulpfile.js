@@ -10,7 +10,8 @@ gulp.task("concatScripts", function() {
             "js/fastclick.js", 
             "js/foundation.js", 
             "js/foundation.equalizer.js", 
-            "js/foundation.reveal.js"])
+            "js/foundation.reveal.js", 
+            "js/scripts.js"])
     .pipe(concat("app.js"))
     .pipe(gulp.dest("js"));
 });
