@@ -495,7 +495,7 @@ a:hover {
   cursor: pointer; }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto; }
 
 img {
@@ -7122,27 +7122,27 @@ body {
     width: 50px;
 }
 
-#avatar1 {
+.avatar1 {
   background: url("../img/avatars/avatar1.jpg") no-repeat center center;
   background-size: 50px;
 }
-#avatar3 {
+.avatar3 {
   background: url("../img/avatars/avatar3.jpg") no-repeat center center;
   background-size: 50px;
 }
-#avatar4 {
+.avatar4 {
   background: url("../img/avatars/avatar4.jpg") no-repeat center center;
   background-size: 50px;
 }
-#avatar5 {
+.avatar5 {
   background: url("../img/avatars/avatar5.jpg") no-repeat center center;
   background-size: 50px;
 }
-#avatar6 {
+.avatar6 {
   background: url("../img/avatars/avatar6.jpg") no-repeat center center;
   background-size: 50px;
 }
-#avatar7 {
+.avatar7 {
   background: url("../img/avatars/avatar7.jpg") no-repeat center center;
   background-size: 50px;
 }
