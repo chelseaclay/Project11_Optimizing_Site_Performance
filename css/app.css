@@ -7121,6 +7121,31 @@ body {
     margin-left: 1rem;
     width: 50px;
 }
+
+#avatar1 {
+  background: url("../img/avatars/avatar1.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar3 {
+  background: url("../img/avatars/avatar3.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar4 {
+  background: url("../img/avatars/avatar4.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar5 {
+  background: url("../img/avatars/avatar5.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar6 {
+  background: url("../img/avatars/avatar6.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar7 {
+  background: url("../img/avatars/avatar7.jpg") no-repeat center center;
+  background-size: 50px;
+}
 .image-grid {
     padding: 0 3rem;
 }
@@ -7141,8 +7166,6 @@ body {
 
 .image-grid .image a {
     border-radius: .5rem .5rem 0 0;
-    /* max-height: 15rem; */
-    /* min-height: 15rem; */
     display: block;
     min-width: 100%;
     overflow: hidden;
@@ -7170,6 +7193,44 @@ body {
     margin-right: 1rem;
     width: 50px;
 }
+
+#big1 {
+  background: url("../img/photos/photo1.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big2 {
+  background: url("../img/photos/photo2.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big3 {
+  background: url("../img/photos/photo3.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big4 {
+  background: url("../img/photos/photo4.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big5 {
+  background: url("../img/photos/photo5.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big6 {
+  background: url("../img/photos/photo6.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big7 {
+  background: url("../img/photos/photo7.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big8 {
+  background: url("../img/photos/photo8.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big9 {
+  background: url("../img/photos/photo9.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 .reveal-modal .info {
     padding: 2rem 1rem 0;
 }

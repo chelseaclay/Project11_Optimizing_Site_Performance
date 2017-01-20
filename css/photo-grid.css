@@ -18,8 +18,6 @@
 
 .image-grid .image a {
     border-radius: .5rem .5rem 0 0;
-    /* max-height: 15rem; */
-    /* min-height: 15rem; */
     display: block;
     min-width: 100%;
     overflow: hidden;
@@ -46,4 +44,41 @@
     height: 50px;
     margin-right: 1rem;
     width: 50px;
+}
+
+#big1 {
+  background: url("../img/photos/photo1.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big2 {
+  background: url("../img/photos/photo2.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big3 {
+  background: url("../img/photos/photo3.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big4 {
+  background: url("../img/photos/photo4.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big5 {
+  background: url("../img/photos/photo5.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big6 {
+  background: url("../img/photos/photo6.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big7 {
+  background: url("../img/photos/photo7.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big8 {
+  background: url("../img/photos/photo8.jpg") no-repeat center center;
+  background-size: cover;
+}
+#big9 {
+  background: url("../img/photos/photo9.jpg") no-repeat center center;
+  background-size: cover;
 }

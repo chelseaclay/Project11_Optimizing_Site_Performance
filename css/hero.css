@@ -28,3 +28,28 @@
     margin-left: 1rem;
     width: 50px;
 }
+
+#avatar1 {
+  background: url("../img/avatars/avatar1.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar3 {
+  background: url("../img/avatars/avatar3.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar4 {
+  background: url("../img/avatars/avatar4.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar5 {
+  background: url("../img/avatars/avatar5.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar6 {
+  background: url("../img/avatars/avatar6.jpg") no-repeat center center;
+  background-size: 50px;
+}
+#avatar7 {
+  background: url("../img/avatars/avatar7.jpg") no-repeat center center;
+  background-size: 50px;
+}
