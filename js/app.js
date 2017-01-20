@@ -1394,3 +1394,17 @@ function a(b,d){function e(a,b){return function(){return a.apply(b,arguments)}}v
     };
   }
 }(jQuery, window, window.document));
+
+$(document).ready(function(){
+  //thumnail image
+  var thumbIMG = $(".image > img");
+  
+  //get larger image when thumbnail is clicked
+  $(thumbIMG).click(function() {
+    var imagePath = $(this).attr("src");
+    var bigIMG = imagePath.replace("img/photos/thumbs/", "img/photos/");
+    var $dataInfo = $(this).parent().attr("data-reveal-id"); 
+    
+    $("#" + $dataInfo).find("img").attr("src", largerSrc); 
+  });
+});
